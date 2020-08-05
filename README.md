@@ -36,7 +36,7 @@
 
 <img align="left" alt="Adobe Premiere" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" />
 <img align="left" alt="Vegas Pro" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Vegas_Pro_15.0.png" />
-<img align="left" alt="Boris FX" width="26px" src="http://seekvectorlogo.com/wp-content/uploads/2019/02/boris-fx-vector-logo.png" />
+<img align="left" alt="Boris FX" height="26px" src="http://seekvectorlogo.com/wp-content/uploads/2019/02/boris-fx-vector-logo.png" />
 <img align="left" alt="HitFilm" width="26px" src="https://i0.wp.com/download.zone/wp-content/uploads/2019/02/hitfilm-logo.png" />
 <img align="left" alt="Adobe Photoshop" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" />
 <img align="left" alt="Affinity Photo" width="26px" src="https://upload.wikimedia.org/wikipedia/en/f/fb/Affinity_Photo_logo_new.png" />
