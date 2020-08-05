@@ -32,13 +32,6 @@
 
 <br />
 
-### IT and Tools:
-
-<img align="left" alt="Mikrotik" width="26px" src="https://img.icons8.com/dotty/80/000000/router.png" />
-<img align="left" alt="Cisco" width="26px" src="https://cdn.worldvectorlogo.com/logos/cisco-2.svg" />
-
-<br />
-
 ### Photo/Video and Tools:
 
 <img align="left" alt="Adobe Premiere" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" />
@@ -61,19 +54,3 @@
 [instagram]: https://instagram.com/anezaki.ryo
 [linkedin]: https://linkedin.com/in/rm121514
 [facebook]: https://facebook.com/ryoken.anezaki
-
-
-<!--
-**Darkerside/Darkerside** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
