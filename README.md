@@ -9,7 +9,7 @@
 ### Connect with me:
 
 [<img align="left" alt="RA121514" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="RA121514 | CV" width="22px" src="https://img.icons8.com/ios-filled/100/000000/parse-from-clipboard.png" />][cvwebsite]
+[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/58/Parse%20From%20Clipboard-595b40b65ba036ed117d0b18.svg" />][cvwebsite]
 [<img align="left" alt="RA121514 | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="RA121514 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="RA121514 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
