@@ -1,7 +1,7 @@
 ### Hi there, I'm Riski Mardhianto - aka [Darkerside][website] or [RA121514][cvwebsite] 👋
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
-- 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev and IT Support Freelancer!
+- 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev and IT Support | [OWLZone][owlig] as Videographer and Video Editor.
 - 🌱 I’m currently learning Photography, Videography & Video Editing.
 - 🥅 2020 Goals: Find the path for my future whether it's WEB Dev, Network Engineer or Videographer.
 - ⚡ Fun fact: im Mood-Driven Person, whenever my mood strikes i can do whatever i like without paying any attention to my surrounding.
@@ -54,3 +54,4 @@
 [instagram]: https://instagram.com/anezaki.ryo
 [linkedin]: https://linkedin.com/in/rm121514
 [facebook]: https://facebook.com/ryoken.anezaki
+[owlig]: https://www.instagram.com/ozmanagement/
