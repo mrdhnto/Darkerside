@@ -2,7 +2,7 @@
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
 - 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev and IT Support, also on [OWLZone][owlig] as Videographer and Video Editor.
-- 🌱 I’m currently learning Photography, Videography & Video Editing.
+- 🌱 I’m currently learning Web Dev, Videography & Video Editing.
 - 🥅 2020 Goals: Find the path for my future whether it's WEB Dev, Network Engineer or Videographer.
 - ⚡ Fun fact: im Mood-Driven Person, whenever my mood strikes i'll working without paying any attention to my surrounding even on myself.
 
