@@ -9,7 +9,7 @@
 ### Connect with me:
 
 [<img align="left" alt="RA121514" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />][cvwebsite]
+/*img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />][cvwebsite]
 [<img align="left" alt="RA121514 | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="RA121514 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="RA121514 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
@@ -49,7 +49,7 @@
 <img align="left" alt="Darkerside's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Darkerside&show_icons=true&hide_border=true" />
 
 [website]: https://darkerside.github.com
-[cvwebsite]: http://spcoded.000webhostapp.com
+/*vwebsite]: http://spcoded.000webhostapp.com
 [youtube]: https://youtube.com/user/TheJustMage
 [instagram]: https://instagram.com/anezaki.ryo
 [linkedin]: https://linkedin.com/in/rm121514
