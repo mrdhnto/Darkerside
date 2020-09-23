@@ -1,4 +1,4 @@
-### Hi there, I'm Riski Mardhianto - aka [Darkerside][website] or [RA121514][cvwebsite] 👋
+### Hi there, I'm Riski Mardhianto - aka [Darkerside][website] or [RA121514] 👋
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
 - 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev and IT Support, also on [OWLZone][owlig] as Videographer and Video Editor.
