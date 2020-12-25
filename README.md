@@ -47,7 +47,7 @@
 
 <img align="left" alt="Darkerside's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Darkerside&show_icons=true&hide_border=true" />
 
-[website]: https://darkerside.github.com
+[website]: https://darkerside.github.io
 [cvwebsite]: https://ra121514.gitlab.io
 [instagram]: https://instagram.com/anezaki.ryo
 [linkedin]: https://linkedin.com/in/rm121514
