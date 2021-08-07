@@ -1,4 +1,4 @@
-### Hi there, I'm Riski Mardhianto - aka [Darkerside][website] or [RA121514][cvwebsite] 👋
+### Hi there, I'm Riski Mardhianto - aka [Darkerside](https://darkerside.github.io) or [RA121514](https://ra121514.gitlab.io) 👋
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
 - 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev, IT Support & Video Editor.
@@ -8,11 +8,11 @@
 
 ### Connect with me:
 
-[<img align="left" alt="RA121514" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />][cvwebsite]
-[<img align="left" alt="RA121514 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="RA121514 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="RA121514 | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
+[<img align="left" alt="RA121514" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://darkerside.github.io)
+[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />](https://ra121514.gitlab.io)
+[<img align="left" alt="RA121514 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/rm121514)
+[<img align="left" alt="RA121514 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://instagram.com/anezaki.ryo)
+[<img align="left" alt="RA121514 | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />](https://facebook.com/ryoken.anezaki)
 
 <br />
 
@@ -31,6 +31,7 @@
 <img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
 
 <br />
 
@@ -51,10 +52,12 @@
 <img align="left" alt="Darkerside's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Darkerside&show_icons=true&hide_border=true" />
 <!--
 <br />
-<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=alvnfaiz&layout=compact" />
--->
+<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Darkerside&layout=compact" />
+
 [website]: https://darkerside.github.io
 [cvwebsite]: https://ra121514.gitlab.io
 [instagram]: https://instagram.com/anezaki.ryo
 [linkedin]: https://linkedin.com/in/rm121514
 [facebook]: https://facebook.com/ryoken.anezaki
+
+-->
