@@ -34,7 +34,7 @@
 
 <br />
 
-### Photo/Video and Tools:
+### Photo/Video Tools:
 
 <img align="left" alt="Adobe Premiere" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" />
 <img align="left" alt="Vegas Pro" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Vegas_Pro_15.0.png" />
