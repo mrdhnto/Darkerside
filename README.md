@@ -1,4 +1,4 @@
-### Hi there, I'm Riski Mardhianto - aka [Darkerside](https://darkerside.github.io) or [RA121514](https://ra121514.gitlab.io) 👋
+### Hi there, I'm Riski Mardhianto - aka [Darkerside](https://darkerside.github.io) or [RA121514](https://ra121514.site) 👋
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
 - 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev, IT Support & Video Editor.
@@ -9,7 +9,7 @@
 ### Connect with me:
 
 [<img align="left" alt="RA121514" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />](https://darkerside.github.io)
-[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />](https://ra121514.gitlab.io)
+[<img align="left" alt="RA121514 | CV" width="22px" src="https://visualpharm.com/assets/600/Parse%20From%20Clipboard-595b40b75ba036ed117d6aeb.svg" />](https://ra121514.site)
 [<img align="left" alt="RA121514 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://linkedin.com/in/rm121514)
 [<img align="left" alt="RA121514 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://instagram.com/anezaki.ryo)
 [<img align="left" alt="RA121514 | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />](https://facebook.com/ryoken.anezaki)
