@@ -2,8 +2,8 @@
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
 - 🔭 I’m currently working on a [Luminix Studio][website] as WEB Dev, IT Support & Video Editor.
-- 🌱 I’m currently learning Web Dev, Videography & Video Editing.
-- 🥅 2021 Goals: Still find the path for my future whether it's WEB Dev, Network Engineer or Videographer.
+- 🌱 I’m currently learning Web Dev, Linux Server & other dev-related skills.
+- 🥅 2022 Goals: Polishing my WEB Dev skills, Linux Server and other dev-related skills.
 - ⚡ Fun fact: I'm Mood-Driven Person, whenever my mood strikes I'll working without paying any attention to my surrounding even on myself.
 
 ### Connect with me:
