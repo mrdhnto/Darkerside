@@ -17,7 +17,7 @@ jobs:
   call-workflow2:
     if: ${{ always() }}
     needs: call-workflow1
-    uses: ./.github/workflows/profile-summary-cards.yaml
+    uses: ./.github/workflows/profile-summary-cards.yml
   call-workflow3:
     if: ${{ always() }}
     needs: call-workflow2
