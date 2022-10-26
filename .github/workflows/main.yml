@@ -1,0 +1,122 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0-22/2 * * *"
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+jobs:
+  github-metrics-personal:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: 🦑 Personal metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_stars: yes
+          plugin_stars_limit: 2
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🦑 Personal metrics (starred)
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.topics.mastered.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 0
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+
+      - name: 🦑 Personal metrics (pagespeed)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.pagespeed.svg
+          token: NOT_NEEDED
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_url: meoki.net
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🌇 GitHub Skyline 3D calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.skyline.svg
+          token: NOT_NEEDED
+          plugin_skyline: yes
+          plugin_skyline_year: 2020
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🗨️ Stackoverflow plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.stackoverflow.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 13849043
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 1
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🧑‍🤝‍🧑 People plugin (followers)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.people.followers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugin_people_identicons: yes
+          plugin_people_types: followers
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🈷️ Languages plugin (detailed)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: dockerfile
+          plugin_languages_details: bytes-size, percentage
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🎫 Gists plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.gists.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_gists: yes
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🎟️ Follow-up plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
