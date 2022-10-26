@@ -66,12 +66,30 @@
 
 ---
 
-<img align="left" alt="Darkerside's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Darkerside&show_icons=true&hide_border=true" />
-<!--
-<br />
-<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Darkerside&layout=compact" />
+### My Stats
+<p align="center">
+    <a href="https://github.com/darkerside">
+        <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/0-profile-details.svg" alt="RA121514 github stats"/>
+    </a>
+    <div style="display:flex;">
+      <a href="https://github.com/darkerside">
+        <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/3-stats.svg" />
+      </a>
+      <a href="https://github.com/darkerside">
+        <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/1-repos-per-language.svg" />
+      </a>
+    </div>
+</p>
 
-[cvwebsiteimg]: https://img.shields.io/badge/porfolio-%23000.svg?style=for-the-badge
+<div align="center" style="overflow: hidden justify-content:space-around;">
+  <img src="metrics.plugin.topics.mastered.svg" width="400"/>
+  <img src="metrics.plugin.calendar.svg" width="380">
+</div>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+[cvwebsiteimg]: https://img.shields.io/badge/portfolio-%23000.svg?style=for-the-badge
 [instagramimg]: https://img.shields.io/static/v1?style=for-the-badge&message=Instagram&color=E4405F&logo=Instagram&logoColor=FFFFFF&label=
 [linkedinimg]: https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=
 [facebookimg]: https://img.shields.io/static/v1?style=for-the-badge&message=Facebook&color=1877F2&logo=Facebook&logoColor=FFFFFF&label=
@@ -79,5 +97,3 @@
 [instagram]: https://instagram.com/ra.121514
 [linkedin]: https://linkedin.com/in/rm121514
 [facebook]: https://facebook.com/ryoken.anezaki
-
--->
