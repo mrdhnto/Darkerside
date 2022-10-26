@@ -71,7 +71,7 @@
     <a href="https://github.com/darkerside">
         <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/0-profile-details.svg" alt="RA121514 github stats"/>
     </a>
-    <div style="display:flex;">
+    <div style="display:flex; justify-content:center;">
       <a href="https://github.com/darkerside">
         <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/3-stats.svg" />
       </a>
