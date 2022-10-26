@@ -1,0 +1,24 @@
+name: Main
+on:
+  schedule:
+    - cron: "0 0-22/2 * * *"
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+  call-workflow1:
+    uses: ./.github/workflows/metrics.yaml
+  call-workflow2:
+    if: ${{ always() }}
+    needs: call-workflow1
+    uses: ./.github/workflows/profile-summary-cards.yaml
+  call-workflow3:
+    if: ${{ always() }}
+    needs: call-workflow2
+    uses: ./.github/workflows/waka-stats.yml
