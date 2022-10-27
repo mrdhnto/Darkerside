@@ -1,3 +1,9 @@
+<p align="center">
+<a href="https://ra121514.my.id">
+    <img src="effect.svg"/>
+</a>
+</p>
+
 ### Hi there, I'm Riski Mardhianto - aka [Darkerside](https://darkerside.github.io) or [RA121514](https://ra121514.site) 👋
 
 ## I'm a Network Engineer, Programmer & IT Enthusiast!
@@ -71,7 +77,7 @@
     <a href="https://github.com/darkerside">
         <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/0-profile-details.svg" alt="RA121514 github stats"/>
     </a>
-    <div style="display:flex; justify-content:center;">
+    <div align="center" style="display:flex; justify-content:center;">
       <a href="https://github.com/darkerside">
         <img src="https://raw.githubusercontent.com/Darkerside/Darkerside/master/profile-summary-card-output/vue/3-stats.svg" />
       </a>
