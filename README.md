@@ -4,11 +4,9 @@
 </a>
 </p>
 
-### Hi there, I'm Riski Mardhianto - aka [Darkerside](https://darkerside.github.io) or [RA121514](https://ra121514.site) 👋
-
-## I'm a Network Engineer, Programmer & IT Enthusiast!
+---
 - 💼 I’m currently working on a Luminix Studio as WEB Dev, IT Support & Video Editor.
-- 💻 Also working on a Fintech as IT Developer.
+- 💻 Also working on a Fintech Company as IT Developer.
 - 🌱 I’m currently learning Web Dev, Linux Server & other dev-related skills.
 - 🥅 2022 Goals: Polishing my WEB Dev skills, Linux Server and other dev-related skills.
 - ⚡ Fun fact: I'm Mood-Driven Person, whenever my mood strikes I'll working without paying any attention to my surrounding even on myself.
