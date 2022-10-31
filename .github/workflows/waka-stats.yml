@@ -11,8 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           SHOW_TITLE: true
           BLOCKS: ->
           TIME_RANGE: all_time
