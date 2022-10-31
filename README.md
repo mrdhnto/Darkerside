@@ -91,6 +91,20 @@
 </div>
 
 <!--START_SECTION:waka-->
+
+```text
+From: 25 October 2022 - To: 30 October 2022
+
+Total Time: 6 hrs 54 mins
+
+PHP          4 hrs 47 mins   >>>>>>>>>>>>>>>>>--------   69.36 %
+JavaScript   1 hr 20 mins    >>>>>--------------------   19.44 %
+CSS          14 mins         >------------------------   03.56 %
+Git Config   11 mins         >------------------------   02.88 %
+Vue.js       10 mins         >------------------------   02.55 %
+JSON         3 mins          -------------------------   00.81 %
+```
+
 <!--END_SECTION:waka-->
 
 [cvwebsiteimg]: https://img.shields.io/badge/portfolio-%23000.svg?style=for-the-badge
