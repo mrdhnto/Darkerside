@@ -35,19 +35,19 @@ jobs:
           plugin_topics_limit: 0
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
 
-      - name: 🦑 Personal metrics (pagespeed)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.pagespeed.svg
-          token: NOT_NEEDED
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: ra121514.my.id
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+#       - name: 🦑 Personal metrics (pagespeed)
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.pagespeed.svg
+#           token: NOT_NEEDED
+#           committer_token: ${{ secrets.GITHUB_TOKEN }}
+#           base: ""
+#           plugin_pagespeed: yes
+#           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+#           plugin_pagespeed_detailed: yes
+#           plugin_pagespeed_screenshot: yes
+#           plugin_pagespeed_url: ra121514.my.id
+#           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
       - name: 🌇 GitHub Skyline 3D calendar
         if: ${{ success() || failure() }}
@@ -61,18 +61,18 @@ jobs:
           plugin_skyline_quality: 1
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
-      - name: 🗨️ Stackoverflow plugin
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
-        with:
-          filename: metrics.plugin.stackoverflow.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 13849043
-          plugin_stackoverflow_sections: answers-top
-          plugin_stackoverflow_limit: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+#       - name: 🗨️ Stackoverflow plugin
+#         if: ${{ success() || failure() }}
+#         uses: lowlighter/metrics@master
+#         with:
+#           filename: metrics.plugin.stackoverflow.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_stackoverflow: yes
+#           plugin_stackoverflow_user: 7181803
+#           plugin_stackoverflow_sections: answers-top
+#           plugin_stackoverflow_limit: 1
+#           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
           
       - name: 🧑‍🤝‍🧑 People plugin (followers)
         if: ${{ success() || failure() }}
