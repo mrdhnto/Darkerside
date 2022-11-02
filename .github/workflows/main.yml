@@ -1,7 +1,7 @@
 name: Main
 on:
   schedule:
-    - cron: "0 0-22/2 * * *"
+    - cron: "0 */6 * * *"
   push:
     branches:
       - master
@@ -130,30 +130,32 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           
       - name: Update readme wakatime
-        uses: athul/waka-readme@master
-        env:
-          GH_TOKEN: ${{ github.token }}
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SHOW_TITLE: true
-          BLOCKS: ->
-          TIME_RANGE: all_time
-          SHOW_TIME: true
-          SHOW_MASKED_TIME: true
-#       - uses: anmol098/waka-readme-stats@master
+#         uses: athul/waka-readme@master
+#         env:
+#           GH_TOKEN: ${{ github.token }}
 #         with:
 #           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-#           SHOW_LINES_OF_CODE: "false"
-#           SHOW_LOC_CHART: "false"
-#           SHOW_LANGUAGE_PER_REPO: "false"
-#           SHOW_PROJECTS: "false"
-#           SHOW_SHORT_INFO: "false"
-#           SHOW_PROFILE_VIEWS: "false"
-#           SHOW_TOTAL_CODE_TIME: "false"
+#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #           SHOW_TITLE: true
 #           BLOCKS: ->
 #           TIME_RANGE: all_time
 #           SHOW_TIME: true
 #           SHOW_MASKED_TIME: true
+        uses: anmol098/waka-readme-stats@master
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+          SHOW_LINES_OF_CODE: "false"
+          SHOW_LOC_CHART: "false"
+          SHOW_LANGUAGE_PER_REPO: "false"
+          SHOW_PROJECTS: "false"
+          SHOW_SHORT_INFO: "false"
+          SHOW_PROFILE_VIEWS: "false"
+          SHOW_TOTAL_CODE_TIME: "false"
+          SHOW_TITLE: true
+          BLOCKS: ->
+          TIME_RANGE: all_time
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: true
