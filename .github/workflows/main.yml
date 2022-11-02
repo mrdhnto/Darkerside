@@ -8,19 +8,152 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  build:
+  update-content:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+
+      - name: 🦑 Personal metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_stars: yes
+          plugin_stars_limit: 2
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🦑 Personal metrics (starred)
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.topics.mastered.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 0
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+
+#       - name: 🦑 Personal metrics (pagespeed)
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.pagespeed.svg
+#           token: NOT_NEEDED
+#           committer_token: ${{ secrets.GITHUB_TOKEN }}
+#           base: ""
+#           plugin_pagespeed: yes
+#           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+#           plugin_pagespeed_detailed: yes
+#           plugin_pagespeed_screenshot: yes
+#           plugin_pagespeed_url: ra121514.my.id
+#           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🌇 GitHub Skyline 3D calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.skyline.svg
+          token: NOT_NEEDED
+          plugin_skyline: yes
+          plugin_skyline_year: 2020
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+#       - name: 🗨️ Stackoverflow plugin
+#         if: ${{ success() || failure() }}
+#         uses: lowlighter/metrics@master
+#         with:
+#           filename: metrics.plugin.stackoverflow.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_stackoverflow: yes
+#           plugin_stackoverflow_user: 7181803
+#           plugin_stackoverflow_sections: answers-top
+#           plugin_stackoverflow_limit: 1
+#           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🧑‍🤝‍🧑 People plugin (followers)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.people.followers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugin_people_identicons: yes
+          plugin_people_types: followers
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🈷️ Languages plugin (detailed)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: dockerfile
+          plugin_languages_details: bytes-size, percentage
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🎫 Gists plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.gists.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_gists: yes
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          
+      - name: 🎟️ Follow-up plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+
+      - name: Summary card
+        if: ${{ success() || failure() }}
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-  call-workflow1:
-    uses: ./.github/workflows/metrics.yml
-  call-workflow2:
-    if: ${{ always() }}
-    needs: call-workflow1
-    uses: ./.github/workflows/profile-summary-cards.yml
-  call-workflow3:
-    if: ${{ always() }}
-    needs: call-workflow2
-    uses: ./.github/workflows/waka-stats.yml
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          
+      - name: Update readme wakatime
+        uses: athul/waka-readme@master
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_TITLE: true
+          BLOCKS: ->
+          TIME_RANGE: all_time
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: true
+#       - uses: anmol098/waka-readme-stats@master
+#         with:
+#           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+#           SHOW_LINES_OF_CODE: "false"
+#           SHOW_LOC_CHART: "false"
+#           SHOW_LANGUAGE_PER_REPO: "false"
+#           SHOW_PROJECTS: "false"
+#           SHOW_SHORT_INFO: "false"
+#           SHOW_PROFILE_VIEWS: "false"
+#           SHOW_TOTAL_CODE_TIME: "false"
+#           SHOW_TITLE: true
+#           BLOCKS: ->
+#           TIME_RANGE: all_time
+#           SHOW_TIME: true
+#           SHOW_MASKED_TIME: true
