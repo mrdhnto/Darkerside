@@ -100,6 +100,8 @@ Total Time: 617 hrs 7 mins
 PHP                440 hrs 2 mins  >>>>>>>>>>>>>>>>>>-------   71.30 %
 JavaScript         113 hrs 45 mins >>>>>--------------------   18.43 %
 Other              25 hrs 48 mins  >------------------------   04.18 %
+Markdown           9 hrs 1 min     -------------------------   01.46 %
+HTML               8 hrs 49 mins   -------------------------   01.43 %
 ```
 
 <!--END_SECTION:waka-->
