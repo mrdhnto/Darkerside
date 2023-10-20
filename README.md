@@ -110,7 +110,7 @@ YAML               10 hrs 32 mins  -------------------------   00.99 %
 [instagramimg]: https://img.shields.io/static/v1?style=for-the-badge&message=Instagram&color=E4405F&logo=Instagram&logoColor=FFFFFF&label=
 [linkedinimg]: https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=
 [facebookimg]: https://img.shields.io/static/v1?style=for-the-badge&message=Facebook&color=1877F2&logo=Facebook&logoColor=FFFFFF&label=
-[cvwebsite]: https://ra121514.gitlab.io
+[cvwebsite]: https://ra121514.my.id
 [instagram]: https://instagram.com/ra.121514
 [linkedin]: https://linkedin.com/in/rm121514
 [facebook]: https://facebook.com/ryoken.anezaki
