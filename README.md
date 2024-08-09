@@ -93,15 +93,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 25 October 2022 - To: 08 August 2024
+From: 25 October 2022 - To: 09 August 2024
 
-Total Time: 1,828 hrs 33 mins
+Total Time: 1,832 hrs 59 mins
 
-PHP                        1,099 hrs 10 mins>>>>>>>>>>>>>>>----------   60.11 %
-JavaScript                 324 hrs 27 mins >>>>---------------------   17.74 %
-Vue.js                     202 hrs 46 mins >>>----------------------   11.09 %
-Other                      79 hrs 10 mins  >------------------------   04.33 %
-Markdown                   27 hrs 54 mins  -------------------------   01.53 %
+PHP                        1,099 hrs 10 mins>>>>>>>>>>>>>>>----------   59.97 %
+JavaScript                 324 hrs 28 mins >>>>---------------------   17.70 %
+Vue.js                     202 hrs 46 mins >>>----------------------   11.06 %
+Other                      83 hrs 5 mins   >------------------------   04.53 %
+Markdown                   28 hrs 9 mins   -------------------------   01.54 %
 ```
 
 <!--END_SECTION:waka-->
