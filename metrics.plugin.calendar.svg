@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="539" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="606" class="">
     <defs>
         <style/>
     </defs>
@@ -2052,11 +2052,10 @@
                                     </svg>
                                     <div class="name">
                                         <span>mrdhnto/libre-manga-translator</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 5 hours ago</span>
                                     </div>
                                 </div>
-                                <div class="field description">
-                                </div>
+                                <div class="field description">Free, Privacy first open-source manga translator. Run everything locally on your GPU, use Gemini, or connect your own LLM. Bubble detection + OCR + translation in one extension. Successor of Local-Manga-Translator proof-of-concept.</div>
                                 <div class="field infos">
                                     <div class="language">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
